@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+}
+ul{
+    display: flex;
+    background: rgb(212, 212, 221);
+}
+ul a{
+    font-size: 2rem;
+    text-decoration: none;
+    margin: 20px;
+    list-style: none;
+}
+ul a:hover{
+    background: rgb(235, 176, 185);
+    border-radius: 2px;
+}
+.wellcome{
+    background-color: antiquewhite;
+    height: 300px;
+
+}
+.wellcome h1{
+    text-align: center;
+    padding: 50px;
+    font-size: 4rem;
+    
+}
+.home1{
+    /* background: greenyellow; */
+    height: 300px;
+    margin: 40px;
+    padding: 20px;
+    
+}
+.card{
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+h2{
+    background:white;
+    height: 250px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 20px;   
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    text-align: center;
+}
+header .bar ul li {
+    list-style: none;
+}
+
